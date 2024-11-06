@@ -198,3 +198,92 @@
 
 }
   
+{
+  "workbench.colorTheme": "Blackboard Plus",
+  //"editor.fontFamily": "Inconsolata",
+  //"editor.fontFamily": "JetBrains Mono Thin",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "100",
+  "editor.fontSize": 20,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#31302aab",
+    //"editor.lineHighlightBorder": "#ff0000"
+    "editor.selectionBackground": "#2600ff",
+    "editor.selectionHighlightBackground": "#451f70a9",
+    "editor.wordHighlightBackground": "#2040669f",
+    "editor.wordHighlightStrongBackground": "#be11111f",
+    "editorBracketHighlight.foreground1": "#ff0000",
+    "editorBracketHighlight.foreground2": "#00ff00",
+    "editorBracketHighlight.foreground3": "#0000ff",
+    "editorBracketMatch.border": "#00a2ff", 
+    "editorBracketMatch.background": "#258fb93a" 
+  },
+  "bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+  "bladeFormatter.format.indentSize": 2,
+  "bladeFormatter.format.wrapLineLength": 120, 
+  "bladeFormatter.format.sortTailwindcssClasses": true, 
+  "[blade]": {
+      "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+      "editor.formatOnSave": true,
+  },
+
+  "intelephense.environment.phpVersion": "8.0", 
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?$",
+  "editor.tabSize": 1,
+  "editor.indentSize": 2,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "on",
+  "editor.codeLensFontSize": 12,
+  "editor.defaultColorDecorators": true,
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+  "LaravelExtraIntellisense.modelAttributeCase": "snake",
+  "git.autofetch": true,
+  "blade.format.enable": true,
+  "workbench.settings.applyToAllProfiles": ["laravel_goto_components.regex"],
+  "git.enableSmartCommit": true,
+  "editor.wrappingIndent": "indent",
+  "editor.wrappingStrategy": "advanced",
+  "workbench.editor.wrapTabs": true,
+  "editor.minimap.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrapColumn": 200,
+  "chat.editor.wordWrap": "on",
+  "notebook.output.wordWrap": true,
+  "editor.largeFileOptimizations": true,
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "expand",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "php.format.codeStyle": "Laravel",
+  "bladeSpacer.enableTwig": false,
+  "chatgpt.lang": "bn",
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+  cSpell:enable,
+//spell-checker: enable,
+//spellchecker: enable,
+  "cSpell.caseSensitive": true,
+  "cSpell.customDictionaries": {
+    "cSpell.language": "en",
+    
+  },
+  laravelLogViewer.isLaravelProject: true,
+  laravelLogViewer.logPath:"storage/logs",
+  laravelLogViewer.logLevel:"debug",
+  
+}
